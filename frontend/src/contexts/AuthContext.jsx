@@ -130,7 +130,7 @@ export const AuthProvider = ({ children }) => {
             return err.message;
         }
 
-        navigate("/");
+        navigate("/success");
     };
 
     return (
